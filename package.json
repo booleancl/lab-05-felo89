@@ -1,0 +1,23 @@
+{
+  "name": "javascript-lab05",
+  "version": "1.0.0",
+  "description": "## Módulo 2: Conocer la sintáxis moderna de Javascript para desarrollar aplicaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booleancl/javascript-lab05.git"
+  },
+  "keywords": [],
+  "author": "Academia Boolean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/booleancl/javascript-lab05/issues"
+  },
+  "homepage": "https://github.com/booleancl/javascript-lab05#readme",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
