@@ -28,7 +28,7 @@ describe('Access Levels', () => {
   })
 
   it('handle arrays with destructuring', ()=>{
-    const [first, second, third, forth, fifth ] = destructuringArrays()
+    const [first, second, third, forth, fifth] = destructuringArrays()
 
     expect(first).toEqual(100)
     expect(second).toEqual('easy')

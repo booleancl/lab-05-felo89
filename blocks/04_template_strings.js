@@ -2,17 +2,16 @@ function templateStrings() {
   const baseText = 'Hola'
   const user = 'Buster'
 
-  const welcomeText = '\nEstimado' + ' ' + usuario + '\n'
+  const welcomeText = `\nEstimado ${user}\n`
     + 'Tenemos el agrado de comunicarle que ha sido seleccionado\n'
-    + 'para la beca '
+    + 'para la beca\n'
     + 'saludos cordiales'
   
   return {
-    textWithUser: baseText + ' ' + usuario,
+    textWithUser: `${baseText} ${user}`,
     welcomeText
   }
 }
-
 
 module.exports = {
   templateStrings,

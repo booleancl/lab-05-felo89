@@ -12,14 +12,14 @@ function thisInDifferentContexts() {
   // ¿Será posible esto?
   // this = {}
 
-  this.customValue = false
+  this.customValue = true
   
   function normalFunction() {
     return this.customValue
   }
 
   function ConstructorFunction() {
-    this.myProperty = 1
+    this.myProperty = 2
   }
 
   const normalAnonymousFunction = function() {
